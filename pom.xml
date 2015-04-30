@@ -76,9 +76,9 @@
                         <goals><goal>run</goal></goals>
                         <configuration>
                             <target>
-                                <mkdir dir="${destDir}" />
-                                <get src="${upstream.url}/satellizer.js" dest="${destDir}" />
-                                <get src="${upstream.url}/satellizer.min.js" dest="${destDir}" />
+                                <mkdir dir="${destDir}"/>
+                                <get src="${upstream.url}/satellizer.js" dest="${destDir}"/>
+                                <get src="${upstream.url}/satellizer.min.js" dest="${destDir}"/>
                             </target>
                         </configuration>
                     </execution>
